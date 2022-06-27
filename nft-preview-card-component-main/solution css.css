@@ -1,0 +1,53 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+.main-part {
+    border:  solid 2px;
+    height: 400px;
+    width: 500px;
+    display: flex;   
+    -ms-flex-align: start; 
+    
+}
+img {
+    height: 400px;
+    width: 250px;
+    }
+    p {
+        margin: 1px;
+    }
+h1 {
+    top: 20px;
+}
+.price {
+    display: flex;
+}
+button {
+    background-color: darkgreen;
+    color: white;
+    padding: 1em;
+    font-size: 16px;
+    border-radius: 10%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 200px;
+    margin: auto 0 40 20
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Montserrat:wght@100&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100&family=Lato:wght@100&family=Montserrat:wght@100&family=Roboto:wght@100&display=swap');
+.type {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500;
+}
+.title {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.description {
+    font-size: 14px;
+}
+.main-part P, Span {
+    padding: 1em;
+}
